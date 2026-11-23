@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Strictly exclude all datasets, tabular outputs, figures, and manuscript files
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.joblib
+*.pdf
+*.docx
+*.png
+*.jpg
+*.svg
+data/
+Data/
+results/
+results_v3/
+figures/
+figures_v3/
+Submission_v2/
+Submission_v3/
